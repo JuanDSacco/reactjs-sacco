@@ -1,0 +1,30 @@
+[
+    {
+        "titulo": "Placa grafica",
+        "id": 1,
+        "precio": 200000,
+        "detalle": "MSI 3080",
+        "imagen": "https://gorilagames.com/img/Public/1019-producto-placa-video-msi-geforce-rtx-3080-ventus-3x-3-4663.jpg"
+    },
+    {
+        "titulo": "CPU Gamer",
+        "id": 2,
+        "precio": 27000,
+        "detalle": "Ryzen 9, 1Tb SSD",
+        "imagen": "https://i.blogs.es/5e2772/gamingpc1/1366_2000.jpg"
+    },
+    {
+        "titulo": "Monitor Hyperx",
+        "id": 3,
+        "precio": 70000,
+        "detalle": "Resolucion 4k",
+        "imagen": "https://m.media-amazon.com/images/I/31PLVHnwhFL._AC_SY580_.jpg"
+    },
+    {
+        "titulo": "Teclado",
+        "id": 4,
+        "precio": 20000,
+        "detalle": "Red dragon",
+        "imagen": "https://s3-sa-east-1.amazonaws.com/saasargentina/vijJq9HAPP5XB9IkzdBF/imagen"
+    }
+]
