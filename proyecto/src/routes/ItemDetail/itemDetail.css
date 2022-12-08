@@ -1,12 +1,16 @@
-.detail-container{
-    border: 1px solid #000;
-    padding: 50px 60px 50px 60px;
-    border-radius: 50px;
-    background-color: #f7dafd;
-    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
-    margin-right: 13em;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.detail-container{
+    margin: 0;
+}
+
+.detail-item-container{
+    background-color: #000;
+}
 
 .titulo-detail{
     text-align: center;
@@ -22,10 +26,9 @@
 }
 
 .boton-hand{
-    
     padding: 10px 30px 10px 30px;
     border-radius: 50px;
-    background-color: transparent;
+    background-color: orange;
     border: 1px solid #000;
     margin-left: 1em;
     color: #000;
@@ -45,6 +48,7 @@
     width: 120px;
     height: 120px;
     margin-left: 2em;
+    padding-bottom: 20px;
 }
 
 

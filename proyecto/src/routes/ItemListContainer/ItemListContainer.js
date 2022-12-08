@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Item from "../Item/Item";
-
+import './itemListContainer.css'
 
 const ItemListContainer = () => {
     const [posts, setPosts] = useState([])
@@ -14,7 +14,7 @@ const ItemListContainer = () => {
 
 
     return (
-        <div className="">
+        <div className="divCard">
             {posts.map((productos) => <Item data = {productos} key = {productos.id}></Item>)}
         </div>
     )

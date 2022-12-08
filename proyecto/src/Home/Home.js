@@ -2,7 +2,10 @@ import './home.css';
 
 const Home = () => {
     return (
-        <h1>Bienvenidos a Tienda Strix</h1>
+        <div className='titulo'>
+            <h1>Bienvenidos a <span>Tienda Strix</span> </h1>
+            <p>Haciendo click en el enlace de productos que se encuentra en la parte superior, podras visualizar nuestro stock en detalle</p>
+        </div>
     )
 }
 
