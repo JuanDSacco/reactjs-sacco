@@ -1,0 +1,51 @@
+.detail-container{
+    border: 1px solid #000;
+    padding: 50px 60px 50px 60px;
+    border-radius: 50px;
+    background-color: #f7dafd;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin-right: 13em;
+}
+
+
+.titulo-detail{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 1em;
+}
+
+
+.detail-precio{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1.5em;
+}
+
+.boton-hand{
+    
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #000;
+    margin-left: 1em;
+    color: #000;
+    font-size: 1.2em;
+    
+}
+
+.contador2{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 20px;
+    display: block;
+    
+}
+
+.imgF{
+    width: 120px;
+    height: 120px;
+    margin-left: 2em;
+}
+
+
+

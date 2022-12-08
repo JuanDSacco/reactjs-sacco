@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import './itemDetail.css' 
 
 function ItemDetail ({productos}) {
     const [contador, setContador] = useState(0)

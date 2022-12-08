@@ -8,11 +8,11 @@ const NavBar = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/routes/ItemListContainer/ItemListContainer">Productos</Link>
+                    <Link to="/productos">Productos</Link>
                 </li>
             </ul>
         </div>
     )
 }
 
-export default NavBar; 
+export default NavBar;
