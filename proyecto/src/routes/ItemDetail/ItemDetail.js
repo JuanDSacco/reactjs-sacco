@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './itemDetail.css' 
+import ItemCount from '../ItemCount/ItemCount'
 
 function ItemDetail ({productos}) {
     const [contador, setContador] = useState(0)
@@ -17,9 +18,7 @@ function ItemDetail ({productos}) {
                 <h3 className="titulo-detail">{productos.nombre}</h3>
                 <img className="imgF" src={productos.imagen} alt={productos.id}></img>
                 <p className="detalle-precio">${productos.precio}</p>
-                <button onClick={botonResta} className="boton-hand">-</button>
-                <button onClick={botonAumento} className="boton-hand">+</button>
-                <p className="contador2">Cantidad:{contador}</p>
+                <ItemCount productos={productos}/>
             </div>
         </div>
     )
